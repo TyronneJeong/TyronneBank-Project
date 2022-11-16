@@ -6,8 +6,6 @@
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome!" />
   </a>
 
----
-
 시스템 안전성을 위해 오래전 부터 한국의 뱅킹 시스템은 오픈스택의 기술보다는 개별 솔루션 중심의 시스템 구축을 이어져 왔다. 이러한 On-Prem 방식의 뱅킹 시스템은 최근 화두가 되는 Scale Out 방식의 확장에 유연하지 못하고, 고성능 하드웨어에 의존하는 시스템 구성상 사용자수 증가에 따른 Scale Up 비용이 기하 급수적으로 증가하는 형태를 보이고 있다. 
 
 때문에, 최근 유행하는 MSA 설계방식과 메모리 캐싱 및 메세지 브로커 등을 이용한 트랜잭션 분산 전략을 이용하여, 결합도(Coupling)을 줄이고 클라우드 컴퓨팅을 통한 대규모 분산 처리를 통해 저비용 고효율의 시스템 구성을 시도해볼 충분한 가치가 있다고 판단했다.
@@ -17,15 +15,11 @@
 해당 작업을 통해, 보수적인 스킬 셋에서 벗어나 조금 더 유연하고 기술 활용도가 높은 도구 사용으로 트랜드에 충실하고, 그 과정에서 미처 생각하지 못한 장애상황과 난관을 극복하는 과정을 통해 미래 시스템의 발전 방향에 대해서도 모색해 보고자 한다.
 
 ## Getting Started
-
----
     [installation 작업 후 기술]
     $ 
 
 
 ## System Architecture
-
----
 ###### Infra Strctures
 - [writting]
 
@@ -33,8 +27,6 @@
 - [writting]
 
 ## Features
-
----
 ###### 주요 기능
 * 회원 가입 (비대면 회원 가입 및 인증)
 * 고객 예금 계좌 개설
@@ -62,8 +54,6 @@
 
 
 ## Technologies
-
----
 ###### Backend
 * Java Spring Boot
 * Redis
@@ -79,6 +69,4 @@
 * React
 
 ## Change Log
-
----
 * v0.1 - Initial release.
